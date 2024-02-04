@@ -180,6 +180,46 @@ aside img{
     height: 100%;
 }
 
+aside h3{
+    text-align: left;
+    padding-left: 20px;
+}
+
+table {
+    text-align: left;
+    padding-left: 20px;
+    width: 100%;
+}
+
+td {
+    padding-left: 10px;
+}
+
+.peta {
+    max-width: 300px;
+    width: 100%;
+}
+
+#about {
+    background-color: #FAEED1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dev-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#contact {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 footer{
     background-color: #BBAB8C;
     position: relative;
