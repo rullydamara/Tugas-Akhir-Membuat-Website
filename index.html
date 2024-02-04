@@ -6,43 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisata Mesujiku</title>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navigation">
             <div class="title">
                 <h1>Wisata Mesujiku</h1>
+            </div>
+            <div class="mobile-nav">
+                <h1>Wisata Mesujiku</h1>
+                <div id="myLinks">
+                    <a href="#home">Beranda</a>
+                    <a href="#content">Objek Wisata</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#contact">Hubungi Kami</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
             </div>
             <div class="nav-item">
                 <a href="#home">Beranda</a>
                 <a href="#about">Tentang</a>
                 <a href="#contact">Hubungi Kami</a>
-            </div>
+            </div>    
+            
         </nav>
+
     </header>
 
     <main class="card">
         <div class="home" id="home">
             <article class="wellcome">
                 <h2>Selamat Datang di Website Wisata Mesujiku</h2>
-                <p>Tempat mencari informasi terkait objek wisata di Kabupaten Mesuji</p>
-                <button>Jelajahi</button>
+                <p>Tempat mencari informasi terkait objek wisata populer di Kabupaten Mesuji Provinsi Lampung</p>
+                <a href="#content" class="btn btn-hero">Jelajahi</a>
             </article>
         </div>
         <section>
             <aside>
-                <h3>Kabupaten Mesuji</h3>
+                <h2>Kabupaten Mesuji</h2>
                 <img src="/assets/image/profile.png" alt="Logo Mesuji">
             </aside>
             <div id="content" class="content">
                 <article>
-                    <h3>Daftar Objek Wisata</h3>
+                    <h2>Daftar Objek Wisata</h2>
                     <div class="flex-container">
                         <div class="list-box">
                             <h4>Taman Kehati</h4>
                             <img src="/assets/image/Taman-Kehati.jpg" alt="" class="featured-image">
                             <p>Taman Wisata Alam Kehati, merupakan tempat wisata dengan luas 12 hektar ini 
                                 memiliki banyak wahana menarik, yang tentu saja sangat memanjakan para pengunjung...</p>
+                            <button class="btn btn-rm">Baca Selengkapnya...</button>
                         </div>
                         <div class="list-box">
                             <h4>Sungai Buaya</h4>
@@ -50,6 +66,7 @@
                             <p>Sungai buaya merupakan salah satu tempat yang bisa dikunjungi untuk refresing 
                                 dan merupakan tempat yang bagus untuk menjadi spot foto. Sungai dan pepohonan 
                                 disamping sungai menambah citra bagus dari sungai buaya ini....</p>
+                            <button class="btn btn-rm">Baca Selengkapnya...</button>
                         </div>
                         <div class="list-box">
                             <h4>Alun-Alaun Simpang Pematang</h4>
@@ -57,6 +74,7 @@
                             <p>Destinasi wisata yang satu ini memberikan hiburan yang murah sekaligus meriah. 
                                 Hanya bermodal kendaraan dan bekal untuk jajan, Anda sudah dapat menikmati hiburan 
                                 di tempat yang indah ini...</p>
+                            <button class="btn btn-rm">Baca Selengkapnya...</button>
                         </div>
                         <div class="list-box">
                             <h4>Rest Area Way Serdang</h4>
@@ -64,9 +82,10 @@
                             <p>Sesuai dengan namanya, tempat ini memang memberikan tempat yang nyaman untuk istirahat 
                                 sejenak dari kepenatan. Baik untuk orang dewasa maupun mereka yang masih di bawah umur. 
                                 Destinasi wisata yang satu ini memang memberikan pesona yang berbeda dari wisata lain...</p>
+                            <button class="btn btn-rm">Baca Selengkapnya...</button>
                         </div>
                     </div>
-                    <button>Lihat Lebih Banyak</button>
+                    <button class="btn btn-small">Lihat Lebih Banyak</button>
                 </article>
             </div>
         </section>
@@ -85,5 +104,6 @@
     <footer>
         <div>Created with Love by Rulli Damara Putra</div>
     </footer>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
